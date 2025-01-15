@@ -1,28 +1,24 @@
 name: Deploy to GitHub Pages
-
 on:
   push:
     branches:
       - main  # Trigger deployment on push to main branch
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
         node-version: '18'  # Specify the Node.js version here
-
     - name: Install dependencies
       run: |
         npm install  # Install all the dependencies from package.json
         npm run build  # Build the project using the build script
-
+    - name: List files in dist directory
+      run: ls -R ./dist  # List all files inside the dist directory for debugging
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
