@@ -12,18 +12,18 @@ export default function Contact() {
             <h3 className="text-xl font-semibold text-white mb-4">Contact Information</h3>
             <div className="flex items-center gap-3 text-gray-300">
               <Mail className="w-5 h-5 text-purple-400" />
-              <span>your.email@example.com</span>
+              <span>nikunjnehu@gmail.com</span>
             </div>
             <div className="flex items-center gap-3 text-gray-300">
               <Phone className="w-5 h-5 text-purple-400" />
-              <span>+91 XXXXXXXXXX</span>
+              <span>+91 9720324825</span>
             </div>
             <div className="flex gap-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+              <a href="https://github.com/markstone111" target="_blank" rel="noopener noreferrer"
                 className="p-2 bg-slate-800 rounded-full hover:bg-purple-500/20 transition-all">
                 <Github className="w-6 h-6 text-purple-400" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.linkedin.com/in/nikunjm111/" target="_blank" rel="noopener noreferrer"
                 className="p-2 bg-slate-800 rounded-full hover:bg-purple-500/20 transition-all">
                 <Linkedin className="w-6 h-6 text-purple-400" />
               </a>
@@ -32,7 +32,7 @@ export default function Contact() {
           
           <div className="bg-slate-800 p-6 rounded-xl">
             <iframe
-              src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true"
+              src="https://docs.google.com/forms/d/e/1FAIpQLSen_JzIlvFNykCRBjN14t2PDToH4JDolNzMu9qj8T0yc-q8XA/viewform?embedded=true"
               className="w-full h-[400px]"
               frameBorder="0"
               marginHeight={0}
